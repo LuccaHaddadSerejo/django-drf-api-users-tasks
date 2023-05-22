@@ -1,9 +1,12 @@
 from rest_framework import serializers
 from .models import User
 from rest_framework.validators import UniqueValidator
+from tasks.serializers import TaskFormatResSerializer
 
 
 class UserSerializer(serializers.ModelSerializer):
+    tasks = TaskFormatResSerializer(many=True)
+
     def create(self, validated_data: dict) -> User:
         return User.objects.create_user(**validated_data)
 
@@ -20,8 +23,8 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ["id", "username", "password", "profile"]
-        read_only_fields = ["id"]
+        fields = ["id", "username", "password", "profile", "tasks"]
+        read_only_fields = ["id", "tasks"]
         extra_kwargs = {
             "password": {"write_only": True},
             "username": {
