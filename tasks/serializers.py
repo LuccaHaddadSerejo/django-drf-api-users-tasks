@@ -20,3 +20,18 @@ class TaskSerializer(serializers.ModelSerializer):
         model = Task
         fields = ["id", "title", "description", "status", "user_id"]
         read_only_fields = ["id"]
+
+
+class TaskFormatResSerializer(serializers.ModelSerializer):
+    def update(self, instance: Task, validated_data: dict) -> Task:
+        for key, value in validated_data.items():
+            setattr(instance, key, value)
+
+        instance.save()
+
+        return instance
+
+    class Meta:
+        model = Task
+        fields = ["id", "title", "description", "status"]
+        read_only_fields = ["id"]
