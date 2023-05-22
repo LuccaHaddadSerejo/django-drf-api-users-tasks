@@ -1,9 +1,9 @@
 # Enxerto-Agro-teste
 
- - Instale o seu ambiente virtual com o seguinte comando: python -m venv venv
- - Entre no seu ambiente virtual com o comando: source venv/Scripts/activate (windows)
- - Baixe as dependências do projeto que estão no arquivo requirements.txt com o comando: pip install -r requirements.txt
- - A API foi desenvolvida em PostgreSQL. Para iniciar basta criar e configurar um arquivo .env com base no arquivo .env_example. Não se esqueça de criar o db com o mesmo nome que colocar no .env.
+ - Instale o seu ambiente virtual com o seguinte comando: **python -m venv venv**
+ - Entre no seu ambiente virtual com o comando: **source venv/Scripts/activate (windows)**
+ - Baixe as dependências do projeto que estão no arquivo requirements.txt com o comando: **pip install -r requirements.txt**
+ - A API foi desenvolvida em  **PostgreSQL**. Para iniciar basta criar e configurar um arquivo  **.env** com base no arquivo  **.env_example**. Não se esqueça de criar o db com o mesmo nome que colocar no .env.
 
 #
 
