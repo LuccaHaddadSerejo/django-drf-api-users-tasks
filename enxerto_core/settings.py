@@ -41,9 +41,7 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
-    "drf_spectacular",
     "rest_framework",
-    "django_filters",
 ]
 
 MY_APPS = ["users"]
