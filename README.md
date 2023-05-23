@@ -4,7 +4,7 @@
  - Entre no seu ambiente virtual com o comando: **source venv/Scripts/activate (windows)** ou **source venv/Bin/activate (linux)**
  - Baixe as dependências do projeto que estão no arquivo requirements.txt com o comando: **pip install -r requirements.txt**
  - A API foi desenvolvida em  **PostgreSQL**. Para iniciar basta criar e configurar um arquivo  **.env** com base no arquivo  **.env_example**. Não se esqueça de criar o database com o mesmo nome que colocar no .env.
- - - **Somente o ADMIN consegue criar outros usuários. Para criar um usuário admin, utilize o comando: python manage.py create_admin**
+ - **Somente o ADMIN consegue criar outros usuários. Para criar um usuário admin, utilize o comando: python manage.py create_admin**
 
 #
 
