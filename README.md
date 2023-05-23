@@ -3,10 +3,8 @@
  - Instale o seu ambiente virtual com o seguinte comando: **python -m venv venv**
  - Entre no seu ambiente virtual com o comando: **source venv/Scripts/activate (windows)** ou **source venv/Bin/activate (linux)**
  - Baixe as dependências do projeto que estão no arquivo requirements.txt com o comando: **pip install -r requirements.txt**
- - A API foi desenvolvida em  **PostgreSQL**. Para iniciar basta criar e configurar um arquivo  **.env** com base no arquivo  **.env_example**. Não se esqueça de criar o database com o mesmo nome que colocar no .env.
- - **Somente o ADMIN consegue criar outros usuários. Para criar um usuário admin, utilize o comando personalizado: python manage.py create_admin**
-
-#
+ - A API foi desenvolvida em  **PostgreSQL**. Para iniciar basta criar e configurar um arquivo  **.env** com base no arquivo  **.env_example**. Não se esqueça de criar o database com o mesmo nome que colocar no .env
+ - **Somente o ADMIN consegue criar outros usuários. Para criar um usuário admin, utilize o comando personalizado: _python manage.py create_admin_**
 
 ## Requisitos do Serviço
 
@@ -14,9 +12,7 @@ Esse serviço possui uma API REST para criar, listar, atualizar e deletar os dad
 
 - O banco de dados utilizado foi  o **PostgreSQL**.
 
-#
-
-# Endpoints do serviço
+## Endpoints do serviço
 
 | Método | Endpoint             | Responsabilidade                               | Permissão           |
 | ------ | -------------------- | ---------------------------------------------- | ------------------- |
