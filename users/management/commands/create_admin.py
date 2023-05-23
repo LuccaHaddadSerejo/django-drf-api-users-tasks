@@ -37,7 +37,7 @@ class Command(BaseCommand):
             pass
 
         User.objects.create_superuser(
-            username=username, password=password, profile="Admin"
+            username=username, password=password, profile="admin"
         )
         self.stdout.write(
             self.style.SUCCESS(f"Admin `{username}` successfully created!")

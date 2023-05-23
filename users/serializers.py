@@ -5,7 +5,7 @@ from tasks.serializers import TaskFormatResSerializer
 
 
 class UserSerializer(serializers.ModelSerializer):
-    tasks = TaskFormatResSerializer(many=True)
+    tasks = TaskFormatResSerializer(many=True, required=False)
 
     def create(self, validated_data: dict) -> User:
         return User.objects.create_user(**validated_data)

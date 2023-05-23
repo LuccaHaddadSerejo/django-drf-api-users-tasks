@@ -3,9 +3,9 @@ from django.contrib.auth.models import AbstractUser
 
 
 class ProfileOptions(models.TextChoices):
-    admin = "Admin"
-    manager = "Manager"
-    employee = "Employee"
+    admin = "admin"
+    manager = "manager"
+    employee = "employee"
 
 
 class User(AbstractUser):
