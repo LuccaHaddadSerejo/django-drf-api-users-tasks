@@ -7,6 +7,7 @@
  5. Faça a migração das models com o seguinte comando: **python manage.py migrate**
  6. **Somente o ADMIN consegue criar outros usuários. Para criar um usuário admin, utilize o comando personalizado: _python manage.py create_admin_**
  7. Credenciais do ADMIN > **username: admin | email: admin@mail.com | password: admin1234**
+ 8. Para iniciar o servidor, utilize o seguinte comando: **python manage.py runserver**
 
 ## Requisitos do Serviço
 
