@@ -4,7 +4,8 @@
  2. Entre no seu ambiente virtual com o comando: **source venv/Scripts/activate (windows)** ou **source venv/Bin/activate (linux)**
  3. Instale as dependências do projeto que estão no arquivo requirements.txt com o comando: **pip install -r requirements.txt**
  4. A API foi desenvolvida em  **PostgreSQL**. Para iniciar basta criar e configurar um arquivo  **.env** na raiz do projeto com base no arquivo  **.env.example**. Não se esqueça de criar o database com o mesmo nome que colocar no .env
- 5. **Somente o ADMIN consegue criar outros usuários. Para criar um usuário admin, utilize o comando personalizado: _python manage.py create_admin_**
+ 5. Faça a migração das models com o seguinte comando: **python manage.py migrate**
+ 6. **Somente o ADMIN consegue criar outros usuários. Para criar um usuário admin, utilize o comando personalizado: _python manage.py create_admin_**
 
 ## Requisitos do Serviço
 
