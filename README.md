@@ -1,5 +1,5 @@
 # Enxerto-Agro-teste
-
+## Siga o passo a passo para iniciar o projeto:
  1. Instale o seu ambiente virtual com o seguinte comando: **python -m venv venv**
  2. Entre no seu ambiente virtual com o comando: **source venv/Scripts/activate (windows)** ou **source venv/Bin/activate (linux)**
  3. Instale as dependências do projeto que estão no arquivo requirements.txt com o comando: **pip install -r requirements.txt**
