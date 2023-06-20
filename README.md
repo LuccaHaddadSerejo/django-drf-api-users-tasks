@@ -1,4 +1,4 @@
-# Enxerto-Agro-teste
+# API-Users-Tasks
 ## Siga o passo a passo para iniciar o projeto:
  1. Instale o seu ambiente virtual com o seguinte comando: **python -m venv venv**
  2. Entre no seu ambiente virtual com o comando: **source venv/Scripts/activate (windows)** ou **source venv/Bin/activate (linux)**
